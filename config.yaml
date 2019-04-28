@@ -1,5 +1,5 @@
 title: My New Hugo Site
-baseURL: https://xyz.netlify.com/
+baseURL: https://xenodochial-curie-2bad9a.netlify.com
 languageCode: cs-cz
 publishDir: public
 googleAnalytics: "UA-139228660-1"
