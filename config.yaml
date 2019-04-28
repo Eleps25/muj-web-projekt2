@@ -2,7 +2,7 @@ title: My New Hugo Site
 baseURL: https://xyz.netlify.com/
 languageCode: cs-cz
 publishDir: public
-googleAnalytics = "UA-139228660-1"
+googleAnalytics: "UA-139228660-1"
 
 menu:
   main:
