@@ -21,20 +21,19 @@
       <h1><a href="{{ "/" | relURL }}">{{ .Site.Title }}</a></h1>
       <p class="description">{{ .Site.Params.description }}</p>
     </header>
-    <iframe
-  width="450"
-  height="250"
+<iframe
+  width="600"
+  height="450"
   frameborder="0" style="border:0"
-  src="  https://www.google.com/maps/embed/v1/view
-  ?key=AIzaSyBmvzvsrVfEkK55PjRfbZ9wMTo-53cCUIA
-  &center=-33.8569,151.2152
-  &zoom=18
-  &maptype=satellite" allowfullscreen>
+ 
+src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBmvzvsrVfEkK55PjRfbZ9wMTo-53cCUIA&q=Praha+centrum
+       &zoom=12
+       &center=50.087946, 14.421205"
+  allowfullscreen>
 </iframe>
     <div class="page">
       {{ block "main" . }}{{ end }}
     </div>
-
     {{ partial "menu.html" . }}
 
     <footer>
