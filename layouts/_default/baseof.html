@@ -18,7 +18,7 @@
 <body>
   <div class="wrapper">
     <header>
-      <h1><a href="{{ "/" | relURL }}">{{ .Site.Title }}</a></h1>
+      <h1>{{ .Site.Title }}</h1>
       <p class="description">{{ .Site.Params.description }}</p>
     </header>
 <iframe
@@ -43,7 +43,8 @@ src="https://www.google.com/maps/embed/v1/view?key=AIzaSyBmvzvsrVfEkK55PjRfbZ9wM
         This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><b>Creative Commons</b> Attribution-ShareAlike 4.0 International License</a>.
       </p>
     </footer>
+    <div id="int">{{ partial "AddThis.html" . }}ahoj</div>
   </div>
-  {{ partial "AddThis.html" . }}
+  
 </body>
 </html>
